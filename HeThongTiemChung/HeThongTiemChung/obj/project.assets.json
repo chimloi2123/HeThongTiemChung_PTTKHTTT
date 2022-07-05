@@ -1198,11 +1198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
+      "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
       "projectName": "HeThongTiemChung",
-      "projectPath": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
+      "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\HeThongTiemChung\\obj\\",
+      "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1219,11 +1219,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\BUS\\BUS.csproj": {
-              "projectPath": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\BUS\\BUS.csproj"
+            "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {
+              "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj"
             },
-            "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\DTO\\DTO.csproj"
+            "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
             }
           }
         }
