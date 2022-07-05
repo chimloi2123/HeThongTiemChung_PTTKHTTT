@@ -35,6 +35,13 @@ namespace HeThongTiemChung
             string maVX = tb_MaVX.Text;
             string ngay = tb_NgayTiem.Text;
             BUS_CT_PhieuTiem bus_CTPT = new BUS_CT_PhieuTiem();
+
+            if(maVX == "")
+            {
+                MessageBox.Show("Chưa chọn vacxin.");
+                return;
+            }
+
             bool res = bus_CTPT.GhiNgayTiem(maPT, maVX, ngay);
             if (res)
             {
@@ -87,8 +94,14 @@ namespace HeThongTiemChung
             string maGoi = tb_MaGoi.Text;
             string ngay = tb_NgayTiemGoi.Text;
             BUS_CT_PhieuTiem bus_CTPT = new BUS_CT_PhieuTiem();
-            bool res = bus_CTPT.GhiNgayTiemGoi(maPT, maGoi, ngay);
 
+            if(maGoi == "")
+            {
+                MessageBox.Show("Chưa chọn gói.");
+                return;
+            }
+
+            bool res = bus_CTPT.GhiNgayTiemGoi(maPT, maGoi, ngay);
             if (res)
             {
                 List<DTO_CT_PhieuTiem> dsGoiTiem = bus_CTPT.LayChiTietPhieuTiemGoi(tim);

@@ -28,7 +28,7 @@ namespace BUS
 
         public bool GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
         {
-            return dal_CTPT.GhiNgayTiem(maPT, maGoi, ngay);
+            return dal_CTPT.GhiNgayTiemGoi(maPT, maGoi, ngay);
         }
 
     }

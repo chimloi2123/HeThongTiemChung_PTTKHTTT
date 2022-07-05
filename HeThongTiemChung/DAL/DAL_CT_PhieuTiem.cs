@@ -49,7 +49,7 @@ namespace DAL
             {
                 return false;
             }
-            return res > 1;
+            return res > 0;
         }
 
         public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
@@ -79,17 +79,17 @@ namespace DAL
             try
             {
                 MoKetNoi();
-                SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMLE set NGTIEM = @ngay where MAPT = @maPT and MAVX = @maVX", con);
+                SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMGOI set NGTIEM = @ngay where MAPT = @maPT and MAGOI = @maGoi", con);
                 cmd.Parameters.AddWithValue("@ngay", ngay);
                 cmd.Parameters.AddWithValue("@maPT", maPT);
-                cmd.Parameters.AddWithValue("@maVX", maGoi);
+                cmd.Parameters.AddWithValue("@maGoi", maGoi);
                 res = cmd.ExecuteNonQuery();
             }
             catch
             {
                 return false;
             }
-            return res > 1;
+            return res > 0;
         }
     }
 }
