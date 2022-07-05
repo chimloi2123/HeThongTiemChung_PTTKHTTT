@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using DTO;
+
+namespace HeThongTiemChung
+{
+    public partial class DangNhap : Form
+    {
+
+        public DangNhap()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_DangNhap_Click(object sender, EventArgs e)
+        {
+            DTO_DangNhap dn = new DTO_DangNhap();
+            string tk = tb_TaiKhoan.Text;
+            dn.setTaiKhoan(tk);
+            
+            if(tk.Substring(2) == "TC")
+            {
+                TiemChung obj = new TiemChung();
+                obj.Show();
+                this.Hide();
+                return;
+            }
+        }
+    }
+}
