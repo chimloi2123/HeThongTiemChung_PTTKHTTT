@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ScShOFFGOqqAxzqh++e3txf2wMA1yfk5ncSe3D86omDwSnk6E0VunqRyE6q1Jwk9QCFXIiu4KhI6irEhNmKQg==",
+  "dgSpecHash": "d6qSQ3pI9QmQ1rKbXskxIiM4rBca2HYwP2ZZSD/yJ6rwJu2jBWgHYqKRqk7bjtjd6QE4sw2fcsWnEZajgRhe4g==",
   "success": true,
-  "projectFilePath": "D:\\zThis is me\\Study from school\\HK3-2\\Phan tich thiet ke HTTT\\Project\\HeThongTiemChung\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
