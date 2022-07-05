@@ -46,6 +46,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tb_NgayTiemGoi = new System.Windows.Forms.TextBox();
+            this.btn_GhiGoi = new System.Windows.Forms.Button();
+            this.tb_MaGoi = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dgv_CTGT = new System.Windows.Forms.DataGridView();
             this.tb_NgayTiem = new System.Windows.Forms.TextBox();
             this.btn_Ghi = new System.Windows.Forms.Button();
             this.tb_MaVX = new System.Windows.Forms.TextBox();
@@ -56,6 +62,7 @@
             this.btn_Ve = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_CTGT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_CTPT)).BeginInit();
             this.SuspendLayout();
             // 
@@ -213,6 +220,12 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.tb_NgayTiemGoi);
+            this.groupBox2.Controls.Add(this.btn_GhiGoi);
+            this.groupBox2.Controls.Add(this.tb_MaGoi);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.dgv_CTGT);
             this.groupBox2.Controls.Add(this.tb_NgayTiem);
             this.groupBox2.Controls.Add(this.btn_Ghi);
             this.groupBox2.Controls.Add(this.tb_MaVX);
@@ -226,16 +239,69 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi tiết phiếu tiêm vacxin";
             // 
+            // tb_NgayTiemGoi
+            // 
+            this.tb_NgayTiemGoi.Location = new System.Drawing.Point(254, 501);
+            this.tb_NgayTiemGoi.Name = "tb_NgayTiemGoi";
+            this.tb_NgayTiemGoi.Size = new System.Drawing.Size(253, 27);
+            this.tb_NgayTiemGoi.TabIndex = 22;
+            // 
+            // btn_GhiGoi
+            // 
+            this.btn_GhiGoi.Location = new System.Drawing.Point(523, 500);
+            this.btn_GhiGoi.Name = "btn_GhiGoi";
+            this.btn_GhiGoi.Size = new System.Drawing.Size(94, 29);
+            this.btn_GhiGoi.TabIndex = 19;
+            this.btn_GhiGoi.Text = "Ghi";
+            this.btn_GhiGoi.UseVisualStyleBackColor = true;
+            this.btn_GhiGoi.Click += new System.EventHandler(this.btn_GhiGoi_Click);
+            // 
+            // tb_MaGoi
+            // 
+            this.tb_MaGoi.Location = new System.Drawing.Point(71, 502);
+            this.tb_MaGoi.Name = "tb_MaGoi";
+            this.tb_MaGoi.Size = new System.Drawing.Size(65, 27);
+            this.tb_MaGoi.TabIndex = 20;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(167, 504);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(81, 20);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "Ngày tiêm:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 504);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(59, 20);
+            this.label12.TabIndex = 21;
+            this.label12.Text = "Mã gói:";
+            // 
+            // dgv_CTGT
+            // 
+            this.dgv_CTGT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_CTGT.Location = new System.Drawing.Point(6, 272);
+            this.dgv_CTGT.Name = "dgv_CTGT";
+            this.dgv_CTGT.RowHeadersWidth = 51;
+            this.dgv_CTGT.RowTemplate.Height = 29;
+            this.dgv_CTGT.Size = new System.Drawing.Size(611, 216);
+            this.dgv_CTGT.TabIndex = 18;
+            this.dgv_CTGT.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CTGT_CellDoubleClick);
+            // 
             // tb_NgayTiem
             // 
-            this.tb_NgayTiem.Location = new System.Drawing.Point(253, 503);
+            this.tb_NgayTiem.Location = new System.Drawing.Point(253, 238);
             this.tb_NgayTiem.Name = "tb_NgayTiem";
             this.tb_NgayTiem.Size = new System.Drawing.Size(253, 27);
             this.tb_NgayTiem.TabIndex = 17;
             // 
             // btn_Ghi
             // 
-            this.btn_Ghi.Location = new System.Drawing.Point(523, 503);
+            this.btn_Ghi.Location = new System.Drawing.Point(522, 237);
             this.btn_Ghi.Name = "btn_Ghi";
             this.btn_Ghi.Size = new System.Drawing.Size(94, 29);
             this.btn_Ghi.TabIndex = 12;
@@ -245,7 +311,7 @@
             // 
             // tb_MaVX
             // 
-            this.tb_MaVX.Location = new System.Drawing.Point(91, 503);
+            this.tb_MaVX.Location = new System.Drawing.Point(90, 238);
             this.tb_MaVX.Name = "tb_MaVX";
             this.tb_MaVX.Size = new System.Drawing.Size(65, 27);
             this.tb_MaVX.TabIndex = 16;
@@ -253,7 +319,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(166, 506);
+            this.label10.Location = new System.Drawing.Point(166, 241);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(81, 20);
             this.label10.TabIndex = 17;
@@ -262,7 +328,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 506);
+            this.label9.Location = new System.Drawing.Point(5, 241);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(79, 20);
             this.label9.TabIndex = 16;
@@ -275,7 +341,7 @@
             this.dgv_CTPT.Name = "dgv_CTPT";
             this.dgv_CTPT.RowHeadersWidth = 51;
             this.dgv_CTPT.RowTemplate.Height = 29;
-            this.dgv_CTPT.Size = new System.Drawing.Size(611, 442);
+            this.dgv_CTPT.Size = new System.Drawing.Size(611, 205);
             this.dgv_CTPT.TabIndex = 0;
             this.dgv_CTPT.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CTPT_CellDoubleClick);
             // 
@@ -316,6 +382,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_CTGT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_CTPT)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -350,5 +417,11 @@
         private Label label9;
         private TextBox tb_NgayLap;
         private TextBox tb_NgayTiem;
+        private TextBox tb_NgayTiemGoi;
+        private Button btn_GhiGoi;
+        private TextBox tb_MaGoi;
+        private Label label11;
+        private Label label12;
+        private DataGridView dgv_CTGT;
     }
 }

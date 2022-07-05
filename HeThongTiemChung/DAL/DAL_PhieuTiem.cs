@@ -23,7 +23,7 @@ namespace DAL
                 string maKH = dr.GetString(1);
                 string maNV = dr.GetString(2);
                 string maHD = dr.GetString(3);
-                string ngayLap = dr.GetDateTime(4).ToString();
+                string ngayLap = dr.GetDateTime(4).ToShortDateString();
                 phieu = new DTO_PhieuTiemVacxin(maPT, maKH, maNV, maHD, ngayLap);
             }
             DongKetNoi();

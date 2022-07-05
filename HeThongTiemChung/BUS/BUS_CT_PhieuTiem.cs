@@ -20,5 +20,16 @@ namespace BUS
         {
             return dal_CTPT.GhiNgayTiem(maPT, maVX, ngay);
         }
+
+        public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
+        {
+            return dal_CTPT.LayChiTietPhieuTiemGoi(ma);
+        }
+
+        public bool GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
+        {
+            return dal_CTPT.GhiNgayTiem(maPT, maGoi, ngay);
+        }
+
     }
 }

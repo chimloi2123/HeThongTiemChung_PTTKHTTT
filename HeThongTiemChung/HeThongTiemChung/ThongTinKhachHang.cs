@@ -29,7 +29,7 @@ namespace HeThongTiemChung
 
         private void btn_Tim_Click(object sender, EventArgs e)
         {
-            string tim = tb_Tim.Text;
+            string tim = tb_Tim.Text.ToUpper();
             if (tim == "")
             {
                 HienThi();

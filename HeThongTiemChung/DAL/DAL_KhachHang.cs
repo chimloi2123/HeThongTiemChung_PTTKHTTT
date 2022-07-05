@@ -21,7 +21,7 @@ namespace DAL
             {
                 string ma = dr.GetString(0);
                 string ten = dr.GetString(1);
-                string ns = dr.GetDateTime(2).ToString();
+                string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
                 string sdt = dr.GetString(4);
                 string dc = dr.GetString(5);
@@ -44,8 +44,8 @@ namespace DAL
             while (dr.Read())
             {
                 string ma = dr.GetString(0);
-                string ten = dr.GetDateTime(1).ToString();
-                string ns = dr.GetString(2);
+                string ten = dr.GetString(1);
+                string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
                 string sdt = dr.GetString(4);
                 string dc = dr.GetString(5);
@@ -69,7 +69,7 @@ namespace DAL
             {
                 string makh = dr.GetString(0);
                 string ten = dr.GetString(1);
-                string ns = dr.GetDateTime(2).ToString();
+                string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
                 string sdt = dr.GetString(4);
                 string dc = dr.GetString(5);

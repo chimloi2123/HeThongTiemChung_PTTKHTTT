@@ -25,7 +25,7 @@ namespace HeThongTiemChung
             string tk = tb_TaiKhoan.Text;
             dn.setTaiKhoan(tk);
             
-            if(tk.Substring(2) == "TC")
+            if(tk.Substring(0, 2) == "TC")
             {
                 TiemChung obj = new TiemChung();
                 obj.Show();
