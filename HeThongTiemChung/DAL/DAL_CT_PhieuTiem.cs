@@ -8,7 +8,7 @@ using DTO;
 
 namespace DAL
 {
-    public class DAL_CT_PhieuTiem: DAL_DataAccess
+    public class DAL_CT_PhieuTiem : DAL_DataAccess
     {
         public List<DTO_CT_PhieuTiem> LayChiTietCuaPhieuTiem(string ma)
         {
@@ -31,25 +31,17 @@ namespace DAL
             return dsChiTiet;
         }
 
-        public bool GhiNgayTiem(string maPT, string maVX, string ngay)
+        public void GhiNgayTiem(string maPT, string maVX, string ngay)
         {
             int res = 0;
 
-            try
-            {
-                MoKetNoi();
-                SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMLE set NGTIEM = @ngay where MAPT = @maPT and MAVX = @maVX", con);
-                cmd.Parameters.AddWithValue("@ngay", ngay);
-                cmd.Parameters.AddWithValue("@maPT", maPT);
-                cmd.Parameters.AddWithValue("@maVX", maVX);
-                res = cmd.ExecuteNonQuery();
-                DongKetNoi();
-            }
-            catch
-            {
-                return false;
-            }
-            return res > 0;
+            MoKetNoi();
+            SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMLE set NGTIEM = @ngay where MAPT = @maPT and MAVX = @maVX", con);
+            cmd.Parameters.AddWithValue("@ngay", ngay);
+            cmd.Parameters.AddWithValue("@maPT", maPT);
+            cmd.Parameters.AddWithValue("@maVX", maVX);
+            res = cmd.ExecuteNonQuery();
+            DongKetNoi();
         }
 
         public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
@@ -73,23 +65,16 @@ namespace DAL
             return dsChiTiet;
         }
 
-        public bool GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
+        public void GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
         {
             int res = 0;
-            try
-            {
-                MoKetNoi();
-                SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMGOI set NGTIEM = @ngay where MAPT = @maPT and MAGOI = @maGoi", con);
-                cmd.Parameters.AddWithValue("@ngay", ngay);
-                cmd.Parameters.AddWithValue("@maPT", maPT);
-                cmd.Parameters.AddWithValue("@maGoi", maGoi);
-                res = cmd.ExecuteNonQuery();
-            }
-            catch
-            {
-                return false;
-            }
-            return res > 0;
+
+            MoKetNoi();
+            SqlCommand cmd = new SqlCommand("Update CT_PHIEUTIEMGOI set NGTIEM = @ngay where MAPT = @maPT and MAGOI = @maGoi", con);
+            cmd.Parameters.AddWithValue("@ngay", ngay);
+            cmd.Parameters.AddWithValue("@maPT", maPT);
+            cmd.Parameters.AddWithValue("@maGoi", maGoi);
+            res = cmd.ExecuteNonQuery();
         }
     }
 }
