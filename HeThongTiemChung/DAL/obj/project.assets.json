@@ -1151,19 +1151,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1177,8 +1177,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
+            "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
             }
           }
         }

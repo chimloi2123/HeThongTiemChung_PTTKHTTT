@@ -1172,19 +1172,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
       "projectName": "BUS",
-      "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1198,11 +1198,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj"
+            "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj"
             },
-            "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
+            "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
             }
           }
         }
