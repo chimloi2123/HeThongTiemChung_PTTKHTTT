@@ -18,7 +18,15 @@ namespace BUS
 
         public bool GhiNgayTiem(string maPT, string maVX, string ngay)
         {
-            return dal_CTPT.GhiNgayTiem(maPT, maVX, ngay);
+            if (KiemTraNgay(ngay) == false)
+            {
+                return false;
+            }
+            else
+            {
+                dal_CTPT.GhiNgayTiem(maPT, maVX, ngay);
+                return true;
+            }
         }
 
         public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
@@ -28,8 +36,21 @@ namespace BUS
 
         public bool GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
         {
-            return dal_CTPT.GhiNgayTiemGoi(maPT, maGoi, ngay);
+            if (KiemTraNgay(ngay) == false)
+            {
+                return false;
+            }
+            else
+            {
+                dal_CTPT.GhiNgayTiemGoi(maPT, maGoi, ngay);
+                return true;
+            }
         }
 
+        public bool KiemTraNgay(string ngay)
+        {
+            DateTime date;
+            return DateTime.TryParse(ngay, out date);
+        }
     }
 }
