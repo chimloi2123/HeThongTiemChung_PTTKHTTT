@@ -49,8 +49,14 @@ namespace BUS
 
         public bool KiemTraNgay(string ngay)
         {
+            bool check = false;
             DateTime date;
-            return DateTime.TryParse(ngay, out date);
+            check = DateTime.TryParse(ngay, out date);
+            if(date > DateTime.Today)
+            {
+                check = false;
+            }
+            return check;
         }
     }
 }
