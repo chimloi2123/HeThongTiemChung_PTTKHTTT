@@ -12,19 +12,19 @@ namespace DTO
         public string hoTen { get; set; }
         public string ngaySinh { get; set; }
         public string gioiTinh { get; set; }
-        public string sdt { get; set; }
         public string diaChi { get; set; }
+        public string sdt { get; set; }
         public string maThe { get; set; }
         public string maNGH { get; set; }
 
-        public DTO_KhachHang(string maKH, string hoTen, string ngaySinh, string gioiTinh, string sdt, string diaChi, string maThe, string maNGH)
+        public DTO_KhachHang(string maKH, string hoTen, string ngaySinh, string gioiTinh, string diaChi, string sdt, string maThe, string maNGH)
         {
             this.maKH = maKH;
             this.hoTen = hoTen;
             this.ngaySinh = ngaySinh;
             this.gioiTinh = gioiTinh;
-            this.sdt = sdt;
             this.diaChi = diaChi;
+            this.sdt = sdt;
             this.maThe = maThe;
             this.maNGH = maNGH;
         }

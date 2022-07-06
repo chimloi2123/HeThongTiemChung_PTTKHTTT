@@ -23,10 +23,10 @@ namespace DAL
                 string ten = dr.GetString(1);
                 string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
-                string sdt = dr.GetString(4);
-                string dc = dr.GetString(5);
+                string dc = dr.GetString(4);
+                string sdt = dr.GetString(5);
                 string ngh = dr.GetString(7);
-                DTO_KhachHang KH = new DTO_KhachHang(ma, ten, ns, gt, sdt, dc, "", ngh);
+                DTO_KhachHang KH = new DTO_KhachHang(ma, ten, ns, gt, dc, sdt, "********", ngh);
 
                 dsKhachHang.Add(KH);
             }
@@ -47,10 +47,10 @@ namespace DAL
                 string ten = dr.GetString(1);
                 string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
-                string sdt = dr.GetString(4);
-                string dc = dr.GetString(5);
+                string dc = dr.GetString(4);
+                string sdt = dr.GetString(5);
                 string ngh = dr.GetString(7);
-                DTO_KhachHang KH = new DTO_KhachHang(ma, ten, ns, gt, sdt, dc, "", ngh);
+                DTO_KhachHang KH = new DTO_KhachHang(ma, ten, ns, gt, dc, sdt, "********", ngh);
 
                 dsKhachHang.Add(KH);
             }
@@ -71,10 +71,10 @@ namespace DAL
                 string ten = dr.GetString(1);
                 string ns = dr.GetDateTime(2).ToShortDateString();
                 string gt = dr.GetString(3);
-                string sdt = dr.GetString(4);
-                string dc = dr.GetString(5);
+                string dc = dr.GetString(4);
+                string sdt = dr.GetString(5);
                 string ngh = dr.GetString(7);
-                KH = new DTO_KhachHang(makh, ten, ns, gt, sdt, dc, "", ngh);
+                KH = new DTO_KhachHang(makh, ten, ns, gt, dc, sdt, "********", ngh);
             }
             DongKetNoi();
             return KH;

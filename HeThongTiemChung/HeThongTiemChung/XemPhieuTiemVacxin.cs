@@ -17,7 +17,6 @@ namespace HeThongTiemChung
         public XemPhieuTiemVacxin()
         {
             InitializeComponent();
-
         }
 
         private void dgv_CTPT_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
