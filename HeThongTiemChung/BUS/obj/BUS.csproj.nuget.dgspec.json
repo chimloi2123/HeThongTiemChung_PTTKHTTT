@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {}
+    "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {
+    "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
+        "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\obj\\",
+        "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj"
+              "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
+              "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
               }
             }
           }
@@ -75,17 +75,17 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
+    "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\obj\\",
+        "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
+              "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
               }
             }
           }
@@ -143,17 +143,17 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
+    "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\pttkhttt\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\obj\\",
+        "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
