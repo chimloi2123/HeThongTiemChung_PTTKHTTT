@@ -32,6 +32,13 @@ namespace HeThongTiemChung
                 this.Hide();
                 return;
             }
+            else if (tk.Substring(0, 2) == "BS")
+            {
+                XemLich obj = new XemLich();
+                obj.Show();
+                this.Hide();
+                return;
+            }
         }
     }
 }

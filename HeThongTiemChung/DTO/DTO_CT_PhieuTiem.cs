@@ -8,20 +8,20 @@ namespace DTO
 {
     public class DTO_CT_PhieuTiem
     {
-        public string maPhieu { get; set; }
+        public int maPhieu { get; set; }
         public string maVX { get; set; }
         public int donGia { get; set; }
         public string ngayTiem { get; set; }
 
         public DTO_CT_PhieuTiem()
         {
-            maPhieu = "";
+            maPhieu = 0;
             maVX = "";
             donGia = 0;
             ngayTiem = "";
         }
 
-        public DTO_CT_PhieuTiem(string maPhieu, string maVX, int donGia, string ngayTiem)
+        public DTO_CT_PhieuTiem(int maPhieu, string maVX, int donGia, string ngayTiem)
         {
             this.maPhieu = maPhieu;
             this.maVX = maVX;

@@ -11,12 +11,12 @@ namespace BUS
     public class BUS_CT_PhieuTiem
     {
         DAL_CT_PhieuTiem dal_CTPT = new DAL_CT_PhieuTiem();
-        public List<DTO_CT_PhieuTiem> LayChiTietCuaPhieuTiem(string ma)
+        public List<DTO_CT_PhieuTiem> LayChiTietCuaPhieuTiem(int ma)
         {
             return dal_CTPT.LayChiTietCuaPhieuTiem(ma);
         }
 
-        public bool GhiNgayTiem(string maPT, string maVX, string ngay)
+        public bool GhiNgayTiem(int maPT, string maVX, string ngay)
         {
             if (KiemTraNgay(ngay) == false)
             {
@@ -29,12 +29,12 @@ namespace BUS
             }
         }
 
-        public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
+        public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(int ma)
         {
             return dal_CTPT.LayChiTietPhieuTiemGoi(ma);
         }
 
-        public bool GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
+        public bool GhiNgayTiemGoi(int maPT, string maGoi, string ngay)
         {
             if (KiemTraNgay(ngay) == false)
             {
