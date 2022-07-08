@@ -28,9 +28,9 @@ namespace HeThongTiemChung
 
         private void btn_Ghi_Click(object sender, EventArgs e)
         {
-            string tim = tb_MaPhieu.Text.ToUpper();
+            int tim = Int32.Parse(tb_MaPhieu.Text);
 
-            string maPT = tb_MaPhieu.Text;
+            int maPT = Int32.Parse(tb_MaPhieu.Text);
             string maVX = tb_MaVX.Text;
             string ngay = tb_NgayTiem.Text;
             BUS_CT_PhieuTiem bus_CTPT = new BUS_CT_PhieuTiem();
@@ -56,7 +56,7 @@ namespace HeThongTiemChung
 
         private void btn_Tim_Click(object sender, EventArgs e)
         {
-            string tim = tb_MaPhieu.Text.ToUpper();
+            int tim = Int32.Parse(tb_MaPhieu.Text);
 
             BUS_PhieuTiem bus_PT = new BUS_PhieuTiem();
             BUS_CT_PhieuTiem bus_CTPT = new BUS_CT_PhieuTiem();
@@ -87,9 +87,9 @@ namespace HeThongTiemChung
 
         private void btn_GhiGoi_Click(object sender, EventArgs e)
         {
-            string tim = tb_MaPhieu.Text.ToUpper();
+            int tim = Int32.Parse(tb_MaPhieu.Text);
 
-            string maPT = tb_MaPhieu.Text;
+            int maPT = Int32.Parse(tb_MaPhieu.Text);
             string maGoi = tb_MaGoi.Text;
             string ngay = tb_NgayTiemGoi.Text;
             BUS_CT_PhieuTiem bus_CTPT = new BUS_CT_PhieuTiem();

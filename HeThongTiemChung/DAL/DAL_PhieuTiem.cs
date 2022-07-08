@@ -10,7 +10,7 @@ namespace DAL
 {
     public class DAL_PhieuTiem : DAL_DataAccess
     {
-        public DTO_PhieuTiemVacxin LayPhieuTiemTheoMa(string ma)
+        public DTO_PhieuTiemVacxin LayPhieuTiemTheoMa(int ma)
         {
             DTO_PhieuTiemVacxin phieu = new DTO_PhieuTiemVacxin();
             MoKetNoi();
@@ -19,7 +19,7 @@ namespace DAL
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                string maPT = dr.GetString(0);
+                int maPT = dr.GetInt32(0);
                 string maKH = dr.GetString(1);
                 string maNV = dr.GetString(2);
                 string maHD = dr.GetString(3);

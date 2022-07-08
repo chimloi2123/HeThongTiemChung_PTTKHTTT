@@ -10,7 +10,7 @@ namespace DAL
 {
     public class DAL_CT_PhieuTiem : DAL_DataAccess
     {
-        public List<DTO_CT_PhieuTiem> LayChiTietCuaPhieuTiem(string ma)
+        public List<DTO_CT_PhieuTiem> LayChiTietCuaPhieuTiem(int ma)
         {
             List<DTO_CT_PhieuTiem> dsChiTiet = new List<DTO_CT_PhieuTiem>();
             MoKetNoi();
@@ -19,7 +19,7 @@ namespace DAL
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                string maPT = dr.GetString(0);
+                int maPT = dr.GetInt32(0);
                 string maVX = dr.GetString(1);
                 int gia = dr.GetInt32(2);
                 string ngayTiem = dr.GetDateTime(3).ToShortDateString();
@@ -31,7 +31,7 @@ namespace DAL
             return dsChiTiet;
         }
 
-        public void GhiNgayTiem(string maPT, string maVX, string ngay)
+        public void GhiNgayTiem(int maPT, string maVX, string ngay)
         {
             int res = 0;
 
@@ -44,7 +44,7 @@ namespace DAL
             DongKetNoi();
         }
 
-        public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(string ma)
+        public List<DTO_CT_PhieuTiem> LayChiTietPhieuTiemGoi(int ma)
         {
             List<DTO_CT_PhieuTiem> dsChiTiet = new List<DTO_CT_PhieuTiem>();
             MoKetNoi();
@@ -53,7 +53,7 @@ namespace DAL
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                string maPT = dr.GetString(0);
+                int maPT = dr.GetInt32(0);
                 string maVX = dr.GetString(1);
                 int gia = dr.GetInt32(2);
                 string ngayTiem = dr.GetDateTime(3).ToShortDateString();
@@ -65,7 +65,7 @@ namespace DAL
             return dsChiTiet;
         }
 
-        public void GhiNgayTiemGoi(string maPT, string maGoi, string ngay)
+        public void GhiNgayTiemGoi(int maPT, string maGoi, string ngay)
         {
             int res = 0;
 

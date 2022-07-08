@@ -103,3 +103,5 @@ C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeTh
 C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\ref\HeThongTiemChung.dll
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.MHDatVacxin.resources
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.MHGioHang.resources
+D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.DangKiLich.resources
+D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.XemLich.resources

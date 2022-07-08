@@ -11,7 +11,7 @@ namespace BUS
     public class BUS_PhieuTiem
     {
         DAL_PhieuTiem dal_PT = new DAL_PhieuTiem();
-        public DTO_PhieuTiemVacxin LayPhieuTiemTheoMa(string ma)
+        public DTO_PhieuTiemVacxin LayPhieuTiemTheoMa(int ma)
         {
             return dal_PT.LayPhieuTiemTheoMa(ma);
         }

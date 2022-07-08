@@ -8,13 +8,13 @@ namespace DTO
 {
     public class DTO_PhieuTiemVacxin
     {
-        public string maPhieu { get; set; }
+        public int maPhieu { get; set; }
         public string maKH { get; set; }
         public string maNV { get; set; }
         public string maHD { get; set; }
         public string ngayLap { get; set; }
 
-        public DTO_PhieuTiemVacxin(string maPhieu, string maKH, string maNV, string maHD, string ngayLap)
+        public DTO_PhieuTiemVacxin(int maPhieu, string maKH, string maNV, string maHD, string ngayLap)
         {
             this.maPhieu = maPhieu;
             this.maKH = maKH;
@@ -25,7 +25,7 @@ namespace DTO
 
         public DTO_PhieuTiemVacxin()
         {
-            this.maPhieu = "";
+            this.maPhieu = 0;
             this.maKH = "";
             this.maNV = "";
             this.maHD = "";
