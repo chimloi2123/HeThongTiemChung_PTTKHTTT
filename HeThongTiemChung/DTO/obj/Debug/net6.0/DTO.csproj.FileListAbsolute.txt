@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.deps.json
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.dll
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.pdb
@@ -22,3 +23,17 @@ C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\
 C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\refint\DTO.dll
 C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\ref\DTO.dll
+=======
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DTO\obj\Debug\net6.0\ref\DTO.dll
+>>>>>>> df0d3af (cap nhat thanh toan)

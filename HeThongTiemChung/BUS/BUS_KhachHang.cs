@@ -25,5 +25,9 @@ namespace BUS
         {
             return dal_KH.LayKhachHangVoiMa(ma);
         }
+        public List<DTO_KhachHang> KiemTraMaTheKH(string ma, string ma2)
+        {
+            return dal_KH.KiemTraMaTheKH(ma, ma2);
+        }
     }
 }

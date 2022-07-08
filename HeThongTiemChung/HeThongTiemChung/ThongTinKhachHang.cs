@@ -48,5 +48,15 @@ namespace HeThongTiemChung
             obj.Show();
             this.Hide();
         }
+
+        private void dgv_KhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ThongTinKhachHang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

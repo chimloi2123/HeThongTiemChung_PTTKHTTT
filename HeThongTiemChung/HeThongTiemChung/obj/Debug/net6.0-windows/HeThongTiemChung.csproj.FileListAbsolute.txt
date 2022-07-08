@@ -17,6 +17,7 @@ D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\HeThongTi
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.genruntimeconfig.cache
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\ref\HeThongTiemChung.dll
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.XemPhieuTiemVacxin.resources
+<<<<<<< HEAD
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.exe
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.deps.json
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.runtimeconfig.json
@@ -105,3 +106,50 @@ D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeT
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.MHGioHang.resources
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.DangKiLich.resources
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.XemLich.resources
+=======
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.exe
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.deps.json
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.runtimeconfig.json
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\HeThongTiemChung.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\BUS.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\DTO.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\BUS.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\DTO.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.csproj.AssemblyReference.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.DangNhap.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.ThongTinKhachHang.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.TiemChung.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.XemPhieuTiemVacxin.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.csproj.GenerateResource.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.AssemblyInfoInputs.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.AssemblyInfo.cs
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.csproj.CoreCompileInputs.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.csproj.CopyComplete
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\refint\HeThongTiemChung.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.pdb
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.genruntimeconfig.cache
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\ref\HeThongTiemChung.dll
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.LapHoaDon.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.Properties.Resources.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.KiemTraMaThe.resources
+C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.XuatHoaDon.resources
+>>>>>>> df0d3af (cap nhat thanh toan)

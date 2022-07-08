@@ -47,6 +47,7 @@
             this.dgv_KhachHang.RowTemplate.Height = 29;
             this.dgv_KhachHang.Size = new System.Drawing.Size(863, 547);
             this.dgv_KhachHang.TabIndex = 0;
+            this.dgv_KhachHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_KhachHang_CellContentClick);
             // 
             // tb_Tim
             // 
@@ -106,6 +107,7 @@
             this.Controls.Add(this.tb_Tim);
             this.Name = "ThongTinKhachHang";
             this.Text = "ThongTinKhachHang";
+            this.Load += new System.EventHandler(this.ThongTinKhachHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KhachHang)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

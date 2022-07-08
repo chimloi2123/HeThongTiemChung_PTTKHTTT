@@ -13,7 +13,11 @@ namespace DAL
     public class DAL_DataAccess
     {
         public SqlConnection con = null;
+<<<<<<< HEAD
         string conStr = @"Data Source=RAINBOWNICORN\SQLEXPRESS;Initial Catalog=QuanLyTiemChung;Integrated Security=True;";
+=======
+        string conStr = @"Data Source=WATERFOURPC\SQLEXPRESS;Initial Catalog=QuanLyTiemChung;Integrated Security=True;";
+>>>>>>> df0d3af (cap nhat thanh toan)
 
         public void MoKetNoi()
         {

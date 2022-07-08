@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BUS
+<<<<<<< HEAD
 build_property.ProjectDir = D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\BUS\
+=======
+build_property.ProjectDir = C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\BUS\
+>>>>>>> df0d3af (cap nhat thanh toan)

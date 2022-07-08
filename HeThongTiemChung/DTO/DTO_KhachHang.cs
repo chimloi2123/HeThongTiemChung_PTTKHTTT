@@ -28,6 +28,13 @@ namespace DTO
             this.maThe = maThe;
             this.maNGH = maNGH;
         }
+        public DTO_KhachHang(string maKH, string hoTen, string ngaySinh, string maThe)
+        {
+            this.maKH = maKH;
+            this.hoTen = hoTen;
+            this.ngaySinh = ngaySinh;
+            this.maThe = maThe;
+        }
         public DTO_KhachHang()
         {
             this.maKH = "";

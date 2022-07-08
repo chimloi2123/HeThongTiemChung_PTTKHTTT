@@ -31,6 +31,12 @@ namespace HeThongTiemChung
                 obj.Show();
                 this.Hide();
                 return;
+            } else if(tk.Substring(2) == "KT")
+            {
+                LapHoaDon obj = new LapHoaDon();
+                obj.Show();
+                this.Hide();
+                return;
             }
             else if (tk.Substring(0, 2) == "BS")
             {
@@ -39,6 +45,11 @@ namespace HeThongTiemChung
                 this.Hide();
                 return;
             }
+        }
+
+        private void DangNhap_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
