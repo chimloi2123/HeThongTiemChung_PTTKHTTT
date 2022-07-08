@@ -42,19 +42,19 @@ namespace HeThongTiemChung
             this.ToiT2 = new System.Windows.Forms.CheckBox();
             this.ToiCN = new System.Windows.Forms.CheckBox();
             this.ChieuT7 = new System.Windows.Forms.CheckBox();
-            this.ChieuT6 = new System.Windows.Forms.CheckBox();
             this.ChieuT5 = new System.Windows.Forms.CheckBox();
             this.ChieuT4 = new System.Windows.Forms.CheckBox();
             this.ChieuT3 = new System.Windows.Forms.CheckBox();
             this.ChieuT2 = new System.Windows.Forms.CheckBox();
             this.ChieuCN = new System.Windows.Forms.CheckBox();
             this.SangT7 = new System.Windows.Forms.CheckBox();
-            this.SangT6 = new System.Windows.Forms.CheckBox();
             this.SangT5 = new System.Windows.Forms.CheckBox();
             this.SangT4 = new System.Windows.Forms.CheckBox();
             this.SangT3 = new System.Windows.Forms.CheckBox();
             this.SangT2 = new System.Windows.Forms.CheckBox();
             this.SangCN = new System.Windows.Forms.CheckBox();
+            this.ChieuT6 = new System.Windows.Forms.CheckBox();
+            this.SangT6 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -69,6 +69,7 @@ namespace HeThongTiemChung
             this.NgayBatDau = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.LoadLich = new System.Windows.Forms.Button();
+            this.Thoat = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -77,6 +78,7 @@ namespace HeThongTiemChung
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.Thoat);
             this.panel1.Controls.Add(this.DangKiLich);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(2, 3);
@@ -269,21 +271,6 @@ namespace HeThongTiemChung
             this.ChieuT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ChieuT7.UseVisualStyleBackColor = true;
             // 
-            // ChieuT6
-            // 
-            this.ChieuT6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ChieuT6.AutoCheck = false;
-            this.ChieuT6.AutoSize = true;
-            this.ChieuT6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ChieuT6.Location = new System.Drawing.Point(648, 4);
-            this.ChieuT6.Name = "ChieuT6";
-            this.ChieuT6.Size = new System.Drawing.Size(122, 108);
-            this.ChieuT6.TabIndex = 12;
-            this.ChieuT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ChieuT6.UseVisualStyleBackColor = true;
-            // 
             // ChieuT5
             // 
             this.ChieuT5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -374,21 +361,6 @@ namespace HeThongTiemChung
             this.SangT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.SangT7.UseVisualStyleBackColor = true;
             // 
-            // SangT6
-            // 
-            this.SangT6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SangT6.AutoCheck = false;
-            this.SangT6.AutoSize = true;
-            this.SangT6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.SangT6.Location = new System.Drawing.Point(648, 119);
-            this.SangT6.Name = "SangT6";
-            this.SangT6.Size = new System.Drawing.Size(122, 108);
-            this.SangT6.TabIndex = 5;
-            this.SangT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.SangT6.UseVisualStyleBackColor = true;
-            // 
             // SangT5
             // 
             this.SangT5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -463,6 +435,36 @@ namespace HeThongTiemChung
             this.SangCN.TabIndex = 0;
             this.SangCN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.SangCN.UseVisualStyleBackColor = true;
+            // 
+            // ChieuT6
+            // 
+            this.ChieuT6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ChieuT6.AutoCheck = false;
+            this.ChieuT6.AutoSize = true;
+            this.ChieuT6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ChieuT6.Location = new System.Drawing.Point(648, 4);
+            this.ChieuT6.Name = "ChieuT6";
+            this.ChieuT6.Size = new System.Drawing.Size(122, 108);
+            this.ChieuT6.TabIndex = 12;
+            this.ChieuT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ChieuT6.UseVisualStyleBackColor = true;
+            // 
+            // SangT6
+            // 
+            this.SangT6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SangT6.AutoCheck = false;
+            this.SangT6.AutoSize = true;
+            this.SangT6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SangT6.Location = new System.Drawing.Point(648, 119);
+            this.SangT6.Name = "SangT6";
+            this.SangT6.Size = new System.Drawing.Size(122, 108);
+            this.SangT6.TabIndex = 5;
+            this.SangT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SangT6.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -610,6 +612,17 @@ namespace HeThongTiemChung
             this.LoadLich.UseVisualStyleBackColor = false;
             this.LoadLich.Click += new System.EventHandler(this.LoadLich_Click);
             // 
+            // Thoat
+            // 
+            this.Thoat.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Thoat.Location = new System.Drawing.Point(24, 9);
+            this.Thoat.Name = "Thoat";
+            this.Thoat.Size = new System.Drawing.Size(94, 29);
+            this.Thoat.TabIndex = 2;
+            this.Thoat.Text = "Thoát";
+            this.Thoat.UseVisualStyleBackColor = false;
+            this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
+            // 
             // XemLich
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -685,5 +698,6 @@ namespace HeThongTiemChung
         private System.Windows.Forms.ComboBox NgayBatDau;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button LoadLich;
+        private System.Windows.Forms.Button Thoat;
     }
 }

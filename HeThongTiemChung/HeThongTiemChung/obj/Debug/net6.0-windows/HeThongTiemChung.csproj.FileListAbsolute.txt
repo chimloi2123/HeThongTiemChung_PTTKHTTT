@@ -51,3 +51,4 @@ D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\He
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.dll
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\refint\HeThongTiemChung.dll
 D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.pdb
+D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\HeThongTiemChung\obj\Debug\net6.0-windows\HeThongTiemChung.DuyetLich.resources

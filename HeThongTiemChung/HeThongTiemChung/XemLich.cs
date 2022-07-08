@@ -434,5 +434,13 @@ namespace HeThongTiemChung
                 }
             }
         }
+
+        private void Thoat_Click(object sender, EventArgs e)
+        {
+            DangNhap obj = new DangNhap();
+            obj.Show();
+            this.Hide();
+            return;
+        }
     }
 }

@@ -30,5 +30,12 @@ namespace HeThongTiemChung
             obj.Show();
             this.Hide();
         }
+
+        private void btn_Thoat_Click(object sender, EventArgs e)
+        {
+            DangNhap obj = new DangNhap();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

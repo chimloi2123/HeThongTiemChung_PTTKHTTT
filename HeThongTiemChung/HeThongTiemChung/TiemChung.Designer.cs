@@ -30,6 +30,7 @@
         {
             this.btn_PhieuTiem = new System.Windows.Forms.Button();
             this.btn_KhachHang = new System.Windows.Forms.Button();
+            this.btn_Thoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_PhieuTiem
@@ -54,11 +55,22 @@
             this.btn_KhachHang.UseVisualStyleBackColor = true;
             this.btn_KhachHang.Click += new System.EventHandler(this.btn_KhachHang_Click);
             // 
+            // btn_Thoat
+            // 
+            this.btn_Thoat.Location = new System.Drawing.Point(0, 310);
+            this.btn_Thoat.Name = "btn_Thoat";
+            this.btn_Thoat.Size = new System.Drawing.Size(522, 43);
+            this.btn_Thoat.TabIndex = 2;
+            this.btn_Thoat.Text = "Thoát";
+            this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
+            // 
             // TiemChung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(522, 313);
+            this.ClientSize = new System.Drawing.Size(522, 356);
+            this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.btn_KhachHang);
             this.Controls.Add(this.btn_PhieuTiem);
             this.Name = "TiemChung";
@@ -71,5 +83,6 @@
 
         private Button btn_PhieuTiem;
         private Button btn_KhachHang;
+        private Button btn_Thoat;
     }
 }

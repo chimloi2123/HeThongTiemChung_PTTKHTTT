@@ -25,7 +25,7 @@ namespace DAL
             }
             dr.Close(); 
             dr.Dispose();
-            SqlCommand cmd = new SqlCommand("insert into LICH values (@ca,@thu,@ngaybatdau,1) insert into NV_LICH values(@malich, 'BS5')", con);           
+            SqlCommand cmd = new SqlCommand("insert into LICH values (@ca,@thu,@ngaybatdau,0) insert into NV_LICH values(@malich, 'BS5')", con);           
             cmd.Parameters.AddWithValue("@malich", malich);
             cmd.Parameters.AddWithValue("@ca", ca);
             cmd.Parameters.AddWithValue("@thu", thu);
