@@ -11,11 +11,7 @@ namespace HeThongTiemChung
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-<<<<<<< HEAD
             Application.Run(new DangNhap());
-=======
-            Application.Run(new LapHoaDon());
->>>>>>> df0d3af (cap nhat thanh toan)
         }
     }
 }

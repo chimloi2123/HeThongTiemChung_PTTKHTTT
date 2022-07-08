@@ -31,7 +31,8 @@ namespace HeThongTiemChung
                 obj.Show();
                 this.Hide();
                 return;
-            } else if(tk.Substring(2) == "KT")
+            } 
+            else if(tk.Substring(0, 2) == "LT")
             {
                 LapHoaDon obj = new LapHoaDon();
                 obj.Show();

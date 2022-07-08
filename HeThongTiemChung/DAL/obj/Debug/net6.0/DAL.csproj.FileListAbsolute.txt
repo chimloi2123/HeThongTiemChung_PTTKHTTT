@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.deps.json
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.dll
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.pdb
@@ -14,35 +13,3 @@ D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\refint\DAL.dll
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.pdb
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\ref\DAL.dll
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.deps.json
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.dll
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.pdb
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.dll
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.pdb
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.dll
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\refint\DAL.dll
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.pdb
-C:\Users\ACER\Documents\pttkhttt\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\ref\DAL.dll
-=======
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.deps.json
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.dll
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.pdb
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.dll
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.pdb
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.dll
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\refint\DAL.dll
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.pdb
-C:\Users\chiml\Desktop\New folder\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\ref\DAL.dll
->>>>>>> df0d3af (cap nhat thanh toan)

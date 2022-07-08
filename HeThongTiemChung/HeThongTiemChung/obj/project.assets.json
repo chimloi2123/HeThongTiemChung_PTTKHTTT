@@ -1193,32 +1193,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chiml\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
       "projectName": "HeThongTiemChung",
       "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
       "outputPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
-      "projectName": "HeThongTiemChung",
-      "projectPath": "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\HeThongTiemChung.csproj",
-      "packagesPath": "C:\\Users\\chiml\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\HeThongTiemChung\\obj\\",
->>>>>>> df0d3af (cap nhat thanh toan)
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\chiml\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1232,19 +1219,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {
               "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj"
             },
             "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
               "projectPath": "D:\\zThis is me\\Git clone\\PTTKHTTT\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
-=======
-            "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj": {
-              "projectPath": "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\BUS\\BUS.csproj"
-            },
-            "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\chiml\\Desktop\\New folder\\HeThongTiemChung_PTTKHTTT\\HeThongTiemChung\\DTO\\DTO.csproj"
->>>>>>> df0d3af (cap nhat thanh toan)
             }
           }
         }
@@ -1286,7 +1265,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
