@@ -35,18 +35,18 @@
             this.btn_Tim = new System.Windows.Forms.Button();
             this.dtgv_DSVX = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btn_ThemGioHang = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.btn_ThemVacxin = new System.Windows.Forms.Button();
+            this.tb_SoLuong = new System.Windows.Forms.TextBox();
+            this.tb_MoTa = new System.Windows.Forms.TextBox();
+            this.tb_Gia = new System.Windows.Forms.TextBox();
+            this.tb_Ten = new System.Windows.Forms.TextBox();
+            this.tb_Ma = new System.Windows.Forms.TextBox();
+            this.btn_ThemGioHang = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_DSVX)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -110,11 +110,11 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btn_ThemVacxin);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tb_SoLuong);
+            this.groupBox1.Controls.Add(this.tb_MoTa);
+            this.groupBox1.Controls.Add(this.tb_Gia);
+            this.groupBox1.Controls.Add(this.tb_Ten);
+            this.groupBox1.Controls.Add(this.tb_Ma);
             this.groupBox1.Controls.Add(this.btn_ThemGioHang);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
@@ -126,52 +126,52 @@
             this.groupBox1.Size = new System.Drawing.Size(319, 297);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Thông tin Vacxin";
             // 
-            // label3
+            // btn_ThemVacxin
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Mã Vacxin";
+            this.btn_ThemVacxin.Location = new System.Drawing.Point(85, 254);
+            this.btn_ThemVacxin.Name = "btn_ThemVacxin";
+            this.btn_ThemVacxin.Size = new System.Drawing.Size(162, 29);
+            this.btn_ThemVacxin.TabIndex = 11;
+            this.btn_ThemVacxin.Text = "Thêm Vacxin";
+            this.btn_ThemVacxin.UseVisualStyleBackColor = true;
+            this.btn_ThemVacxin.Click += new System.EventHandler(this.btn_ThemVacxin_Click);
             // 
-            // label4
+            // tb_SoLuong
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 72);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 20);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Tên Vacxin";
+            this.tb_SoLuong.Location = new System.Drawing.Point(114, 186);
+            this.tb_SoLuong.Name = "tb_SoLuong";
+            this.tb_SoLuong.Size = new System.Drawing.Size(175, 27);
+            this.tb_SoLuong.TabIndex = 10;
             // 
-            // label5
+            // tb_MoTa
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Giá";
+            this.tb_MoTa.Location = new System.Drawing.Point(114, 150);
+            this.tb_MoTa.Name = "tb_MoTa";
+            this.tb_MoTa.Size = new System.Drawing.Size(175, 27);
+            this.tb_MoTa.TabIndex = 9;
             // 
-            // label6
+            // tb_Gia
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 149);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Mô tả";
+            this.tb_Gia.Location = new System.Drawing.Point(114, 117);
+            this.tb_Gia.Name = "tb_Gia";
+            this.tb_Gia.Size = new System.Drawing.Size(175, 27);
+            this.tb_Gia.TabIndex = 8;
             // 
-            // label7
+            // tb_Ten
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 187);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 20);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Số lượng";
+            this.tb_Ten.Location = new System.Drawing.Point(114, 72);
+            this.tb_Ten.Name = "tb_Ten";
+            this.tb_Ten.Size = new System.Drawing.Size(175, 27);
+            this.tb_Ten.TabIndex = 7;
+            // 
+            // tb_Ma
+            // 
+            this.tb_Ma.Location = new System.Drawing.Point(114, 32);
+            this.tb_Ma.Name = "tb_Ma";
+            this.tb_Ma.Size = new System.Drawing.Size(175, 27);
+            this.tb_Ma.TabIndex = 6;
             // 
             // btn_ThemGioHang
             // 
@@ -183,50 +183,50 @@
             this.btn_ThemGioHang.UseVisualStyleBackColor = true;
             this.btn_ThemGioHang.Click += new System.EventHandler(this.btn_ThemGioHang_Click);
             // 
-            // textBox1
+            // label7
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 27);
-            this.textBox1.TabIndex = 6;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(30, 187);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 20);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Số lượng";
             // 
-            // textBox2
+            // label6
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 72);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(175, 27);
-            this.textBox2.TabIndex = 7;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(30, 149);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Mô tả";
             // 
-            // textBox3
+            // label5
             // 
-            this.textBox3.Location = new System.Drawing.Point(114, 117);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(175, 27);
-            this.textBox3.TabIndex = 8;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(30, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Giá";
             // 
-            // textBox4
+            // label4
             // 
-            this.textBox4.Location = new System.Drawing.Point(114, 150);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(175, 27);
-            this.textBox4.TabIndex = 9;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(30, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Tên Vacxin";
             // 
-            // textBox5
+            // label3
             // 
-            this.textBox5.Location = new System.Drawing.Point(114, 186);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(175, 27);
-            this.textBox5.TabIndex = 10;
-            // 
-            // btn_ThemVacxin
-            // 
-            this.btn_ThemVacxin.Location = new System.Drawing.Point(85, 254);
-            this.btn_ThemVacxin.Name = "btn_ThemVacxin";
-            this.btn_ThemVacxin.Size = new System.Drawing.Size(162, 29);
-            this.btn_ThemVacxin.TabIndex = 11;
-            this.btn_ThemVacxin.Text = "Thêm Vacxin";
-            this.btn_ThemVacxin.UseVisualStyleBackColor = true;
-            this.btn_ThemVacxin.Click += new System.EventHandler(this.btn_ThemVacxin_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(30, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 20);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Mã Vacxin";
             // 
             // MHDatVacxin
             // 
@@ -260,11 +260,11 @@
         private DataGridView dtgv_DSVX;
         private GroupBox groupBox1;
         private Button btn_ThemVacxin;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox tb_SoLuong;
+        private TextBox tb_MoTa;
+        private TextBox tb_Gia;
+        private TextBox tb_Ten;
+        private TextBox tb_Ma;
         private Button btn_ThemGioHang;
         private Label label7;
         private Label label6;

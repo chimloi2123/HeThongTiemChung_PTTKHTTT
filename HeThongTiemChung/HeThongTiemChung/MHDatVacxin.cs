@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
+using DTO;
 
 namespace HeThongTiemChung
 {
@@ -15,12 +17,29 @@ namespace HeThongTiemChung
         public MHDatVacxin()
         {
             InitializeComponent();
+            HienThi();
         }
 
+        private void HienThi()
+        {
+            BUS_Vacxin bus_VX = new BUS_Vacxin();
+            List<DTO_Vacxin> dsvx = bus_VX.LayToanBoVacxin();
+            dtgv_DSVX.DataSource = dsvx;
+        }
 
         private void btn_Tim_Click(object sender, EventArgs e)
         {
-            //dtgv_DSVX.DataSource = BUS_Vacxin.Instance.TimKiemSPTheoTen(tb_TimKiem.Text);
+            string tim = tb_TimKiem.Text.ToUpper();
+            if (tim == "")
+            {
+                HienThi();
+            }
+            else
+            {
+                BUS_Vacxin bus_VX = new BUS_Vacxin();
+                List<DTO_Vacxin> dsvx = bus_VX.LayVacxinTheoMa(tim);
+                dtgv_DSVX.DataSource = dsvx;
+            }
         }
 
         private void btn_ThemGioHang_Click(object sender, EventArgs e)

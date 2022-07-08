@@ -13,3 +13,18 @@ D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\refint\DAL.dll
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.pdb
 D:\zThis is me\Git clone\PTTKHTTT\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.dll
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DAL.pdb
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.dll
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\bin\Debug\net6.0\DTO.pdb
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.dll
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\DAL.pdb
+D:\zThis is me\Study from school\HK3-2\Phan tich thiet ke HTTT\Project\DatMua\HeThongTiemChung_PTTKHTTT1\HeThongTiemChung_PTTKHTTT\HeThongTiemChung\DAL\obj\Debug\net6.0\ref\DAL.dll

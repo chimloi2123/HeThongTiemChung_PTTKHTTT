@@ -46,6 +46,13 @@ namespace HeThongTiemChung
                 this.Hide();
                 return;
             }
+            else if (tk.Substring(0,2) == "KH")
+            {
+                MHDatVacxin obj = new MHDatVacxin();
+                obj.Show();
+                this.Hide();
+                return;
+            }
         }
 
         private void DangNhap_Load(object sender, EventArgs e)
